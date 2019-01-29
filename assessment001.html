@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mirror Conf 2017</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body{
+        background: black url('img/bkgnd.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+         color: white;
+         font-size: 10px;
+         opacity: 0.9;
+         font-family: 'Vollkorn', serif;
+    }
+
+   .background{
+    background-image: linear-gradient(rgba(0,0,255,0), rgba(0,0,255,0.3));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+    header div{
+    display: inline;
+  
+   }
+    img{
+        width: 35px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #ticket-div{
+        margin-top: 10px;
+        width: 250px;
+        float: right;
+    }
+    button{
+        background-color: #FFA07A;
+        padding: 5px 13px;
+        border-style: none;
+        border-right: 4px solid white;
+        border-bottom: 4px solid white;
+        color: white;
+        margin-left: 43px;
+        font-size: 10px
+    }
+    .gradient1{
+    background: linear-gradient(to right, #FFA07A, #B22222);
+   }
+    .gradientText{
+         background-image: linear-gradient(118deg,#fd7d57,#fa2471);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .mirror-conf{
+        margin: 45px 85px;
+    }
+    .design-text{
+	    margin-top: 13px;
+	    margin-bottom: 13px;
+	    font-family: matrix-ii;
+	    font-size: 50px;
+	    font-weight: 800;
+	    line-height: 52px;
+    }
+    #z-ind{
+        /*border: 1px solid red;*/
+        position: relative;
+        z-index: 1;
+        width: 70px;
+        float: right;
+        margin-top: -50px
+    }
+    #z-ind div#play-control{
+        position: absolute;
+        font-size: 40px;
+        z-index: 2
+    }
+    #z-ind div#edition{
+        position: absolute;
+	    top: 0;
+	    left: 0;
+	    height: 100%;
+	    color: #fff;
+	    font-family: matrix-ii;
+	    font-size: 18px;
+	    font-weight: 700;
+	    line-height: 26px;
+	    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%
+    }
+    #date{
+    	margin-bottom: 26px;
+    	font-style: italic;
+        margin-left: 90px
+        color: #fff;
+	    font-family: matrix-ii;
+	    font-size: 18px;
+	    font-weight: 700;
+	    line-height: 26px;
+    }
+    #workshop{
+	    position: static;
+	    color: #fff;
+	    font-family: matrix-ii;
+	    font-size: 18px;
+	    font-style: italic;
+	    line-height: 26px;
+	    text-align: right;
+	    }
+    
+</style>
+<div class="background">
+    
+</div>
+</head>
+	
+    <header>
+        <div>
+            <img src="img/download.svg"> 
+        </div>
+        <div id="ticket-div">
+            <span> SPONSOR US  </span>
+            <span> <button class="white-text gradient1"> BUY YOUR TICKET</button> </span>
+        </div>
+    </header>
+
+	<main>
+        <section class="mirror-conf">
+            <h2>Mirror Conf 2017</h2>
+            <span class="design-text gradientText">For designers <br> and front-end <br> developers. </span>
+            <span id="z-ind">
+                <div id="play-control"><i class="gradientText fa fa-play"></i>
+                </div>
+                <div id="edition">1st edition best of</div>
+            </span>
+        </section>
+        <section class="date-text">
+            <div id="date">
+                <h2>October 10 &#9866; 13, 2017</h2>
+                <h2>Braga, Portugal</h2> 
+            </div>
+            <div id="workshop">
+                <h3>October 10 & 11 &#9866; workshops</h3>
+                <h3>12 & 13 &#9866; main conference </h3>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
